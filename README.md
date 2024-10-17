@@ -53,6 +53,7 @@ Below are the scripts defined in the `package.json` file:
 - `npm run json-server`: Starts `json-server` on port 4000 and watches `db.json` for changes.
 - `npm run start`: Runs both the Nuxt development server and `json-server` concurrently using `concurrently`.
 
+
 ```bash
 npm run start
 ```

@@ -1,0 +1,19 @@
+:root {
+  --brown: #f8d6b3;
+  --white: #ffffff;
+  --dropW: 4px;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--brown);
+}
+
+.dropShadow {
+    border-radius: 20px;
+    border: black var(--dropW) solid;
+    filter: drop-shadow(var(--dropW) var(--dropW) 0px #000000);
+}
+
