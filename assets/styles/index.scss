@@ -1,5 +1,6 @@
 :root {
   --brown: #f8d6b3;
+  --yellow: #fffb00;
   --white: #ffffff;
   --dropW: 4px;
 }
@@ -8,7 +9,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--brown);
+  background-color: var(--yellow);
 }
 
 .dropShadow {

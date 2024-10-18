@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Menu></Menu>
+      <Banner></Banner>
+      <Menu></Menu>
+
+    
   </div>
 </template>
-
