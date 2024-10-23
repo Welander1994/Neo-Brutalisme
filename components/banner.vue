@@ -8,9 +8,10 @@ const y = ref(0);
 
 // Update coordinates based on the mouse movement
 function coordinate(event) {
-  x.value = event.clientX;
-  y.value = event.clientY;
-  document.querySelector('.banner').style.transform = `translate(${x.value * .1}px, ${y.value * .2}px)`;
+  x.value = event.clientX - window.innerWidth / 2;
+  y.value = event.clientY - window.innerHeight / 2;
+  console.log(window.innerWidth);
+  document.querySelector('.banner').style.transform = `translate(${x.value * .1}px, ${y.value * .1}px)`;
 } 
 </script>
 
@@ -35,13 +36,13 @@ function coordinate(event) {
     justify-content: start;
 
     .banner {
-      width: 3000px;
+
       height: 100px;
       background-color: black;
       color: white;
-      position: relative;
-      left: -5vw;
+
       overflow: visible;
+      z-index: 99;
       
 
     }

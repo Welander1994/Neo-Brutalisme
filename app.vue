@@ -1,8 +1,5 @@
 <template>
   <div>
-      <Banner></Banner>
-      <Menu></Menu>
-
-    
-  </div>
+    <NuxtPage></NuxtPage>
+  </div> 
 </template>

@@ -3,13 +3,19 @@
   --yellow: #fffb00;
   --white: #ffffff;
   --dropW: 4px;
+    --space-cadet: #22223bff;
+    --ultra-violet: #4a4e69ff;
+    --rose-quartz: #9a8c98ff;
+    --pale-dogwood: #c9ada7ff;
+    --isabelline: #f2e9e4ff;
+    
 }
 
 
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--yellow);
+  background-color: var(--white);
 }
 
 .dropShadow {
