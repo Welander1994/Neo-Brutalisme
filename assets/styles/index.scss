@@ -1,21 +1,19 @@
 :root {
-  --brown: #f8d6b3;
-  --yellow: #fffb00;
-  --white: #ffffff;
+
   --dropW: 4px;
-    --space-cadet: #22223bff;
-    --ultra-violet: #4a4e69ff;
-    --rose-quartz: #9a8c98ff;
-    --pale-dogwood: #c9ada7ff;
-    --isabelline: #f2e9e4ff;
-    
+  --primary-dark: #22223bff;      /* Space Cadet */
+  --primary-mid: #4a4e69ff;       /* Ultra Violet */
+  --secondary-dark: #9a8c98ff;    /* Rose Quartz */
+  --secondary-mid: #c9ada7ff;     /* Pale Dogwood */
+  --secondary-light: #f2e9e4ff;   /* Isabelline */
+
 }
 
 
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--white);
+  background-color: var(--secondary-light);
 }
 
 .dropShadow {
